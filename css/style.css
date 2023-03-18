@@ -1,10 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 
-*{
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+
+
+/* los comentarios en css son diferentes */
+/* select {
+    propiedad: valor
+} */
+
+header{
+    background-color: black;
+    text-align: center;
+    color: aquamarine;
+}
+
+/* body{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+} */
+
+nav{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1{
+    color: blue;
+    background-color: transparent;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 15px;
+    word-spacing: 50px;
+    /* font-family:monospace; */
+    /* font-family:fantasy; */
+    font-family: serif;
+
+    /* Familia de fuentes:
+    serif, New Time Roman pertenece a serif
+    sanserif
+    script
+    mono space
+    fantastic or display */
+    
+}
+
+h2{
+    color: black;
+    background-color: rgb(230, 122, 22); 
+    text-align: center;
+}
+
+footer
+{
+    background-color: yellow;
+    text-align: center;
+}
+
+section{
+    background-color: aqua;
+}
+
+aside{
+    background-color: rgba(248, 8, 148, 0.719);
+}
+
+p{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* selección multiple */
+/* h1, h2, p {
+    color: red;
+} */
+
+section p{
+    color: red;
+}
+
+
+/* asterisco es selector universal */
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body{
     font-family: 'Roboto', sans-serif;
